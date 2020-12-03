@@ -22,17 +22,37 @@
 </head>
 
 <body>
-  
+
 
    <div class="container">
       <form class="unipet-form customer-regi mt-5">
+
+
 
          <div class="form-header text-center">
             <h2>Create a New Account</h2>
             <p>Please fillup required fields with proper information</p>
          </div>
 
-         <div class="step-one">
+         <div class="steps clearfix">
+            <ul role="tablist">
+               <li role="tab" class="first current" aria-disabled="false" aria-selected="true">
+                  <span class="current-info audible"> </span>
+                  <div class="title">
+                     <span class="title-number">01</span>
+                     <span class="title-text">First Step</span>
+                  </div>
+               </li>
+               <li role="tab" class="done" aria-disabled="false" aria-selected="false">
+                  <div class="title">
+                     <span class="title-number">02</span>
+                     <span class="title-text">Second Step</span>
+                  </div>
+               </li>
+            </ul>
+         </div>
+
+         <fieldset class="step-one">
             <div class="form-row">
                <div class="form-group col-md-6">
                   <label for="customer-name">Customer Name <span class="text-red">*</span></label>
@@ -110,8 +130,8 @@
                   <button type="button" class="btn btn-success w-100 next">Next</button>
                </div>
             </div>
-         </div>
-         <div class="step-two">
+         </fieldset>
+         <fieldset class="step-two">
             <div class="form-row">
                <div class="form-group col-md-6">
                   <label for="bank-name">Bank Name</label>
@@ -160,10 +180,10 @@
                   </div>
                </div>
                <div class="form-group col-md-12">
-                  <button type="button" class="btn btn-success w-100 next">Submit</button>
+                  <button type="button" class="btn btn-success w-100 next">Submit Now</button>
                </div>
             </div>
-         </div>
+         </fieldset>
 
       </form>
    </div>
