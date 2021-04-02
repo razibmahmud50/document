@@ -1,0 +1,187 @@
+body{
+	background: #F1F3F4;
+	color: #616568;
+}
+img{
+    max-width: 100%;
+}
+.text-primary{
+    color: #64b5f6!important;
+}
+.fs-14{
+    font-size: 14px!important;
+}
+.text-secondary{
+    color: #323032!important;
+}
+.cursor-pointer{
+    cursor: pointer!important;
+}
+.btn-vcard{
+    background: rgb(2, 136, 209);
+    color: #fff;
+    border:1px solid #0277bd;
+}
+
+.btn-vcard:hover{
+    color: #fff;
+    opacity: 0.9;
+}
+.code-generator{
+	background: rgb(2, 136, 209);
+}
+.code-generator .seperator{
+	position: absolute;
+    right: -8px;
+    top: 180px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #dddddd;
+    z-index: 1;
+}
+.code-generator .code-generator-card{
+	background: #ffffff;
+	box-shadow:0 0 5px #ced4da;
+}
+.code-generator .nav-pills .nav-link.active{
+	color: #616568;
+	background: #ffffff;
+	border-bottom:3px solid #797D80;
+	border-radius: 0;
+}
+
+.vcard{
+    font-size: 14px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+.vcard .card{
+    box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+}
+.vcard .card-header{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    background: rgb(2, 136, 209);
+}
+.vcard .card-header .profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.vcard .card-header .brand-logo{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right: 0;
+    top: 67%;
+}
+.vcard .card-header .profile-name{
+    font-size: 21px;
+    font-weight: 600;
+}
+.vcard .card-header .profile-info{
+    border: 1px solid rgba(255,255,255,0.15);
+}
+.vcard .card-header .profile-info .info-item{
+    text-align: center;
+    padding: 5px 8px;
+    transition: all 0.3s;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid rgba(255,255,255,0.15);
+}
+.vcard .card-header .info-item .icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px
+}
+.vcard .card-header .profile-info .info-item:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.vcard .card-header .profile-info .info-item:last-child{
+    color: #fff;
+    text-decoration: none;
+    border-right:0;
+}
+.vcard .card-body{
+    padding: 30px;
+    background: #ffffff;
+}
+.vcard .card-body .watermark{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: rotate(-45deg);
+    opacity: 0.1;
+    z-index: 1;
+}
+.vcard .card-body .info-list{
+    position: relative;
+    z-index: 2;
+}
+.vcard .card-body .list-item,
+.downloadVcard .modal-body .list-item{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.vcard .card-body .list-item:last-child{
+    border-bottom: 0;
+}
+.vcard .card-body .list-item .list-icon,
+.downloadVcard .modal-body .list-item .list-icon{
+   flex: 0 0 50px;
+}
+.vcard .card-body .list-item .list-icon .icon,
+.downloadVcard .modal-body .list-item .list-icon .icon{
+   width: 20px;
+}
+.vcard .card-body .list-item .list-details,
+.downloadVcard .modal-body .list-item .list-details{
+   flex: 0 1 auto;
+}
+.vcard .card-body .list-item .list-details p{
+   color: #82848f;
+}
+.vcard .card-body .list-item .list-details p.content{
+   color: #323032;
+}
+.vcard .card-body .list-item .list-details a{
+    text-decoration: none;
+    color: #323032;
+}
+.vcard .card-body .list-item .list-details a.show-map{
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #64b5f6;
+    background: #0000000a;
+
+}
+
+.vcard .card-body .list-item .social-media-list .social-link{
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 20px 15px 0;
+}
+.vcard .card-body .list-item .social-link .icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
