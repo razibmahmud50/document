@@ -21,8 +21,31 @@ img{
     background: rgb(2, 136, 209);
     color: #fff;
     border:1px solid #0277bd;
+    box-shadow: 0px 10px 14.1px 0.9px rgb(0 0 0 / 24%), 0px 4px 19.6px 0.4px rgb(0 0 0 / 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-
+@media(min-width: 320px) and (max-width: 575px){
+    .btn-vcard{
+        position: fixed;
+        right: 22px;
+        bottom: 40px;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        border-radius: 50%;
+    }
+}
+.btn-vcard .btn-icon{
+    margin-right: 8px;
+}
+@media(min-width: 320px) and (max-width: 575px){
+    .btn-vcard .btn-icon{
+        margin-right: 0
+    }
+}
 .btn-vcard:hover{
     color: #fff;
     opacity: 0.9;
@@ -140,8 +163,7 @@ img{
 .downloadVcard .modal-body .list-item .list-icon{
    flex: 0 0 50px;
 }
-.vcard .card-body .list-item .list-icon .icon,
-.downloadVcard .modal-body .list-item .list-icon .icon{
+.vcard .card-body .list-item .list-icon .icon{
    width: 20px;
 }
 .vcard .card-body .list-item .list-details,
@@ -175,6 +197,15 @@ img{
 .vcard .card-body .list-item .social-link .icon{
     width: 30px;
     height: 30px;
+}
+.downloadVcard .modal-body .list-item .icon{
+    width: 36px;
+}
+
+@media (min-width: 576px){
+.modal-vcard {
+    max-width: 300px;
+}
 }
 
 
