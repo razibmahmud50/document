@@ -1,5 +1,0 @@
-table header
-dealer email config
-collection payment
-no record found
-report / painter call header
